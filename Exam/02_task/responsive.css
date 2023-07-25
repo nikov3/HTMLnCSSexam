@@ -1,0 +1,104 @@
+    @media screen and (max-width: 600px) {
+        .home-hero-text-container {
+          width: 100%;
+        }
+      
+        .home-hero {
+          display: block;
+          margin-top: 270px;
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      
+        .container {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+  
+        .home-image1 {
+            position: absolute;
+            top: 70px;
+            left: 0;
+            width: 100%; 
+            height: auto;
+            z-index: 1;
+          }
+        
+          .home-hero-text-container {
+            position: relative;
+            z-index: 2;
+            margin-left: 0px;
+          }
+          .home-cta-btn2 {
+            color: #ffffff;
+            align-self: stretch;
+            text-align: center;
+            padding-top: 16px;
+            border-width: 0px;
+            border-radius: 34px;
+            padding-bottom: 16px;
+            background-color: #bb4cff;
+            width: 30%;
+            margin-left: 35%;
+          }
+          .home-cards-container {
+            width: 100%;
+            display: block;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 40%;
+
+          }
+          .home-heading-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            flex-direction: column;
+          }
+          .home-feature-card {
+            width: 100%;
+            display: flex;
+            position: relative;
+            align-self: flex-start;
+            align-items: center;
+            padding-top: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+            flex-direction: column;
+            padding-bottom: 16px;
+          }
+          .home-feature-card1, .home-feature-card2 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+            flex-direction: column;
+            padding-bottom: 16px;
+          }
+          .home-stats{
+            position: relative;
+            top: 40px;
+            display: block;
+          }
+          .home-features {
+            width: 100%;
+            height: 680px;
+            display: flex;
+            max-width: 1414px;
+            align-items: center;
+            padding-top: 4px;
+            padding-left: 24px;
+            padding-right: 24px;
+            flex-direction: column;
+            margin-bottom: 120%;
+          }
+          
+          
+}
+      

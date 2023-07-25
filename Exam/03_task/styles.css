@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+html, body{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+}
+
+.header{
+    display: flex;
+    padding: 3em;
+}
+
+.header,a{
+    text-decoration: none;
+    color: black;
+    margin: 0 1em  0 1em;
+    font-size:1em
+}
+
+.right{
+    margin-left: auto;
+}
+
+.sign{
+    font-weight:bold;
+    padding: 1em;
+    margin-left: auto;
+    background-color: #ADE2DF;
+    border-radius: 0.25em
+}
+
+.download{
+    background-color: #ADE2DF;
+    text-align: center;
+    padding: 3em;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.text1{
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 3em;
+}
+
+.button{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding: 1em
+}
+
+.icon svg{
+    width: 1em;
+}
+
+.data{
+    display: flex;
+    margin: 3em;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-bottom: 2em;
+}
+
+.section{
+    width: 500px;
+    text-align: center;
+    border-left: solid;
+    border-right: solid;
+    border-color: #ccc;
+    border-width: 1px;
+
+}
+
+.sect-head{
+    font-size: 2em;
+    font-weight:bold
+}
+
+.text2{
+    font-size:larger
+}
+
+.explore{
+    display: flex;
+    background-color: #ADE2DF;
+    padding-left: 15em;
+    padding-right: 15em;
+    margin-bottom: 0;
+}
+
+.phone{
+    border-style: dashed;
+    height: 30em;
+}
+
+.description{
+    padding: 3em;
+}
+
+.title2{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.subtitle{
+    font-size:larger;
+    font-weight: bold
+}
+
+.link2{
+    text-decoration: underline;
+}
+
+.pricing1{
+    text-align: center;
+}
+
+.button2{
+    font-size: 0.9em;
+    font-weight: 300;
+    background-color: #ADE2DF;
+    color: black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-top: 3em;
+}
+
+.pricing-subtitle{
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.plans{
+    display: flex;
+}
+
+.plan{
+    width: 400px;
+
+}
+
+.plan-type{
+    text-align: center;
+    font-weight: bold;
+}
+
+.green-plan{
+    background-color: #ADE2DF;
+}
+
+.plan-link2{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+
+.plan-link{
+    font-size: 1.5em;
+    font-weight: 300;
+    background-color: #ADE2DF;
+    color: black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-top: 3em;
+
+}
+
+.pricing2{
+    margin-bottom: 2em;
+}
